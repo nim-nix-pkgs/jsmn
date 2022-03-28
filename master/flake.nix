@@ -11,7 +11,6 @@
   inputs.src-jsmn-master.ref   = "refs/heads/master";
   inputs.src-jsmn-master.owner = "OpenSystemsLab";
   inputs.src-jsmn-master.repo  = "jsmn.nim";
-  inputs.src-jsmn-master.dir   = "";
   inputs.src-jsmn-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
